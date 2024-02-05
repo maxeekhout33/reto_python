@@ -1,0 +1,6 @@
+print('Bienvenid@, por favor completa los siguientes campos con tu información:')
+name = input('Nombre(s): ')
+last_name = input('Apellidos: ')
+phone_number = input('Número de teléfono: ')
+email = input('Correo electrónico: ')
+print('Hola ' + name + ' ' + last_name + ', en breve recibirás un correo a ' + email)
