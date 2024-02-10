@@ -24,6 +24,7 @@
 &emsp; - etc <br>
 <br>
 &emsp; La funcion enumerate devuelve el indice y su valor y funciona tanto para listas como strings: <br>
+
 ```
 for index, course in enumerate(courses):
     print('El valor para el indice', index, 'es', course)
@@ -31,3 +32,8 @@ for index, course in enumerate(courses):
 for index, character in enumerate('Hola mundo'):
     print(index, character)
 ```
+
+<br>
+:small_blue_diamond: Día 4: Tuplas y diccionarios <br>
+&emsp; Las tuplas son inmutables (str, int, bool, etc)
+&emsp; Los diccionarios son mutables {'key':'value'} la llave = objetos inmutables (str, int, float, bool, tuplas)
